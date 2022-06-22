@@ -1,0 +1,155 @@
+
+------trained_models/OpenImages_out/CIFAR10_BGC_OpenImages_dataset_out=OpenImages_augmentation=autoaugment_AA_cutout=False_2021-09-30-16-29-47_epoch_99.pt------CIFAR10_BGC_OpenImages_dataset_out=OpenImages_augmentation=autoaugment_AA_cutout=False_2021-09-30-16-29-47_epoch_99.pt------------
+
+----------------AUROC---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+s1--CIFAR10-BGC-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-47-epoch-99.pt
+ &  95.21
+ &  94.97    %AUROC
+ &  99.48  
+ &  100.00  
+ &  99.99  
+ &  99.95  
+ &  79.64  
+ &  86.00  
+ &  99.74  
+ &  99.97   \\
+s2--CIFAR10-BGC-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-47-epoch-99.pt
+ &  95.21
+ &  97.21    %AUROC
+ &  98.90  
+ &  100.00  
+ &  99.99  
+ &  99.67  
+ &  90.47  
+ &  92.31  
+ &  99.11  
+ &  99.73   \\
+s3--CIFAR10-BGC-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-47-epoch-99.pt
+ &  95.21
+ &  97.19    %AUROC
+ &  98.87  
+ &  100.00  
+ &  99.98  
+ &  99.62  
+ &  90.47  
+ &  92.31  
+ &  99.08  
+ &  99.71   \\
+
+----------------FPR95---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+s1--CIFAR10-BGC-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-47-epoch-99.pt
+ &  95.21
+ &  19.04    %FPR95
+ &  \phantom{0}2.36  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.00  
+ &  72.00  
+ &  57.88  
+ &  \phantom{0}1.04  
+ &  \phantom{0}0.05   \\
+s2--CIFAR10-BGC-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-47-epoch-99.pt
+ &  95.21
+ &  16.59    %FPR95
+ &  \phantom{0}7.51  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.02  
+ &  \phantom{0}2.05  
+ &  55.16  
+ &  45.12  
+ &  \phantom{0}6.26  
+ &  \phantom{0}1.65   \\
+s3--CIFAR10-BGC-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-47-epoch-99.pt
+ &  95.21
+ &  16.70    %FPR95
+ &  \phantom{0}7.69  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.04  
+ &  \phantom{0}2.35  
+ &  55.19  
+ &  45.22  
+ &  \phantom{0}6.41  
+ &  \phantom{0}1.74   \\
+
+----------------AUPR---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+s1--CIFAR10-BGC-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-47-epoch-99.pt
+ &  95.21
+ &  94.97    %AUPR
+ &  99.48  
+ &  100.00  
+ &  99.99  
+ &  99.95  
+ &  79.64  
+ &  86.00  
+ &  99.74  
+ &  99.97   \\
+s2--CIFAR10-BGC-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-47-epoch-99.pt
+ &  95.21
+ &  97.21    %AUPR
+ &  98.90  
+ &  100.00  
+ &  99.99  
+ &  99.67  
+ &  90.47  
+ &  92.31  
+ &  99.11  
+ &  99.73   \\
+s3--CIFAR10-BGC-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-47-epoch-99.pt
+ &  95.21
+ &  97.19    %AUPR
+ &  98.87  
+ &  100.00  
+ &  99.98  
+ &  99.62  
+ &  90.47  
+ &  92.31  
+ &  99.08  
+ &  99.71   \\
+
+
+all_classes_ece:
+0.017951138327951494
+Bin details:
+0.20 to 0.25,conf-acc = 0.2367, p(bin) = 0.0002
+0.25 to 0.30,conf-acc = -0.0561, p(bin) = 0.0003
+0.30 to 0.35,conf-acc = 0.0840, p(bin) = 0.0004
+0.35 to 0.40,conf-acc = 0.0695, p(bin) = 0.0013
+0.40 to 0.45,conf-acc = -0.0541, p(bin) = 0.0029
+0.45 to 0.50,conf-acc = 0.2039, p(bin) = 0.0040
+0.50 to 0.55,conf-acc = 0.1171, p(bin) = 0.0076
+0.55 to 0.60,conf-acc = -0.0181, p(bin) = 0.0069
+0.60 to 0.65,conf-acc = 0.1124, p(bin) = 0.0088
+0.65 to 0.70,conf-acc = 0.1091, p(bin) = 0.0067
+0.70 to 0.75,conf-acc = 0.0867, p(bin) = 0.0113
+0.75 to 0.80,conf-acc = 0.0288, p(bin) = 0.0113
+0.80 to 0.85,conf-acc = 0.1156, p(bin) = 0.0135
+0.85 to 0.90,conf-acc = 0.1798, p(bin) = 0.0175
+0.90 to 0.95,conf-acc = 0.1066, p(bin) = 0.0358
+0.95 to 1.00,conf-acc = 0.0049, p(bin) = 0.8715
+
+
+in_classes_ece:
+0.01732866460443248
+Bin details:
+0.20 to 0.25,conf-acc = 0.2368, p(bin) = 0.0002
+0.25 to 0.30,conf-acc = 0.2795, p(bin) = 0.0001
+0.30 to 0.35,conf-acc = -0.0710, p(bin) = 0.0005
+0.35 to 0.40,conf-acc = 0.0933, p(bin) = 0.0014
+0.40 to 0.45,conf-acc = -0.1231, p(bin) = 0.0029
+0.45 to 0.50,conf-acc = 0.1629, p(bin) = 0.0035
+0.50 to 0.55,conf-acc = 0.1142, p(bin) = 0.0073
+0.55 to 0.60,conf-acc = 0.0002, p(bin) = 0.0066
+0.60 to 0.65,conf-acc = 0.1121, p(bin) = 0.0084
+0.65 to 0.70,conf-acc = 0.0910, p(bin) = 0.0065
+0.70 to 0.75,conf-acc = 0.1014, p(bin) = 0.0106
+0.75 to 0.80,conf-acc = 0.0265, p(bin) = 0.0114
+0.80 to 0.85,conf-acc = 0.1006, p(bin) = 0.0135
+0.85 to 0.90,conf-acc = 0.1849, p(bin) = 0.0162
+0.90 to 0.95,conf-acc = 0.1092, p(bin) = 0.0348
+0.95 to 1.00,conf-acc = 0.0049, p(bin) = 0.8761

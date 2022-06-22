@@ -1,0 +1,10 @@
+{"trained_models/80M_out/cifar10_wrn_baseline_epoch_99.pt":{},
+ "trained_models/80M_out/cifar10_wrn_oe_scratch_epoch_99.pt":{},
+ "trained_models/80M_out/cifar10_wrn_extra_class_TINY_256_2021-05-27-11-38-20_epoch_99.pt":{},
+ "trained_models/80M_out/cifar10_wrn_shared_TINY_22_2021-05-18-16-44-47_epoch_99.pt":{},
+ "trained_models/80M_out/cifar100_wrn_baseline_epoch_99.pt":{},
+ "trained_models/80M_out/cifar100_wrn_oe_scratch_epoch_99.pt":{},
+ "trained_models/80M_out/cifar100_wrn_extra_class_TINY_256_2021-05-27-11-40-03_epoch_99.pt":{},
+ "trained_models/80M_out/cifar100_wrn_shared_TINY_22_2021-05-18-16-48-45_epoch_99.pt":{}
+}
+

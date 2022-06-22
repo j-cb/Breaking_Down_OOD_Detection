@@ -1,0 +1,70 @@
+
+------trained_models/OpenImages_out/CIFAR10_OE_OpenImages_dataset_out=OpenImages_augmentation=autoaugment_AA_cutout=False_lamb=1.0_2021-09-30-16-29-40_epoch_99.pt------CIFAR10_OE_OpenImages_dataset_out=OpenImages_augmentation=autoaugment_AA_cutout=False_lamb=1.0_2021-09-30-16-29-40_epoch_99.pt------------
+
+----------------AUROC---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+confidences--CIFAR10-OE-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-lamb=1.0-2021-09-30-16-29-40-epoch-99.pt
+ &  95.06
+ &  97.29    %AUROC
+ &  98.49  
+ &  99.99  
+ &  99.99  
+ &  99.99  
+ &  90.03  
+ &  92.64  
+ &  99.91  
+ &  99.43   \\
+
+----------------FPR95---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+confidences--CIFAR10-OE-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-lamb=1.0-2021-09-30-16-29-40-epoch-99.pt
+ &  95.06
+ &  15.14    %FPR95
+ &  \phantom{0}9.58  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.00  
+ &  54.05  
+ &  41.92  
+ &  \phantom{0}0.45  
+ &  \phantom{0}3.46   \\
+
+----------------AUPR---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+confidences--CIFAR10-OE-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-lamb=1.0-2021-09-30-16-29-40-epoch-99.pt
+ &  95.06
+ &  97.29    %AUPR
+ &  98.49  
+ &  99.99  
+ &  99.99  
+ &  99.99  
+ &  90.03  
+ &  92.64  
+ &  99.91  
+ &  99.43   \\
+
+
+classi_ece:
+0.020727220658207972
+Bin details:
+0.10 to 0.15,conf-acc = -0.4575, p(bin) = 0.0012
+0.15 to 0.20,conf-acc = -0.3265, p(bin) = 0.0008
+0.20 to 0.25,conf-acc = -0.5977, p(bin) = 0.0017
+0.25 to 0.30,conf-acc = -0.1807, p(bin) = 0.0011
+0.30 to 0.35,conf-acc = -0.0498, p(bin) = 0.0008
+0.35 to 0.40,conf-acc = -0.0549, p(bin) = 0.0014
+0.40 to 0.45,conf-acc = -0.1007, p(bin) = 0.0023
+0.45 to 0.50,conf-acc = -0.0554, p(bin) = 0.0032
+0.50 to 0.55,conf-acc = -0.0400, p(bin) = 0.0087
+0.55 to 0.60,conf-acc = 0.0084, p(bin) = 0.0069
+0.60 to 0.65,conf-acc = -0.0131, p(bin) = 0.0072
+0.65 to 0.70,conf-acc = 0.0744, p(bin) = 0.0090
+0.70 to 0.75,conf-acc = 0.0989, p(bin) = 0.0091
+0.75 to 0.80,conf-acc = 0.1666, p(bin) = 0.0103
+0.80 to 0.85,conf-acc = 0.1273, p(bin) = 0.0123
+0.85 to 0.90,conf-acc = 0.1452, p(bin) = 0.0164
+0.90 to 0.95,conf-acc = 0.0981, p(bin) = 0.0299
+0.95 to 1.00,conf-acc = 0.0086, p(bin) = 0.8777

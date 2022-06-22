@@ -1,0 +1,47 @@
+
+------trained_models/OpenImages_out/CIFAR10_Plain_TINY_augmentation=autoaugment_AA_cutout=False_2021-10-01-17-24-56_epoch_99.pt------CIFAR10_Plain_TINY_augmentation=autoaugment_AA_cutout=False_2021-10-01-17-24-56_epoch_99.pt------------
+
+----------------AUROC---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+confidences--CIFAR10_Plain_TINY_augmentation=autoaugment_AA_cutout=False_2021-10-01-17-24-56_epoch_99.pt
+ &  95.16
+ &  91.83    %AUROC
+ &  93.52  
+ &  92.94  
+ &  97.02  
+ &  92.74  
+ &  89.61  
+ &  91.25  
+ &  85.70  
+ &  84.81   \\
+
+----------------FPR95---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+confidences--CIFAR10_Plain_TINY_augmentation=autoaugment_AA_cutout=False_2021-10-01-17-24-56_epoch_99.pt
+ &  95.16
+ &  53.23    %FPR95
+ &  47.87  
+ &  50.00  
+ &  17.94  
+ &  66.73  
+ &  60.43  
+ &  53.62  
+ &  76.00  
+ &  63.71   \\
+
+----------------AUPR---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+confidences--CIFAR10_Plain_TINY_augmentation=autoaugment_AA_cutout=False_2021-10-01-17-24-56_epoch_99.pt
+ &  95.16
+ &  64.39    %AUPR
+ &  70.57  
+ &  72.56  
+ &  78.80  
+ &  57.02  
+ &  59.10  
+ &  67.39  
+ &  45.31  
+ &  55.24   \\

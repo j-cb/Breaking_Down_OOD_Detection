@@ -1,0 +1,47 @@
+
+------trained_models/OpenImages_out/CIFAR10_SepD_OpenImages_dataset_out=OpenImages_augmentation=autoaugment_AA_cutout=False_2021-09-30-16-29-40_epoch_99.pt------CIFAR10_SepD_OpenImages_dataset_out=OpenImages_augmentation=autoaugment_AA_cutout=False_2021-09-30-16-29-40_epoch_99.pt------------
+
+----------------AUROC---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+s1--CIFAR10-SepD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-40-epoch-99.pt
+ &   
+ &  88.93    %AUROC
+ &  96.42  
+ &  100.00  
+ &  99.97  
+ &  99.99  
+ &  58.60  
+ &  71.63  
+ &  95.87  
+ &  99.99   \\
+
+----------------FPR95---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+s1--CIFAR10-SepD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-40-epoch-99.pt
+ &   
+ &  23.73    %FPR95
+ &  \phantom{0}6.21  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.00  
+ &  83.79  
+ &  67.44  
+ &  \phantom{0}8.68  
+ &  \phantom{0}0.00   \\
+
+----------------AUPR---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+s1--CIFAR10-SepD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-29-40-epoch-99.pt
+ &   
+ &  88.93    %AUPR
+ &  96.42  
+ &  100.00  
+ &  99.97  
+ &  99.99  
+ &  58.60  
+ &  71.63  
+ &  95.87  
+ &  99.99   \\

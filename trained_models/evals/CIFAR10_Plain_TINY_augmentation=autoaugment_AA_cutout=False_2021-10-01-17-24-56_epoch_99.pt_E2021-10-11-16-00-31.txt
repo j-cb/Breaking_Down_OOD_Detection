@@ -1,0 +1,67 @@
+
+------trained_models/OpenImages_out/CIFAR10_Plain_TINY_augmentation=autoaugment_AA_cutout=False_2021-10-01-17-24-56_epoch_99.pt------CIFAR10_Plain_TINY_augmentation=autoaugment_AA_cutout=False_2021-10-01-17-24-56_epoch_99.pt------------
+
+----------------AUROC---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+confidences--CIFAR10-Plain-TINY-augmentation=autoaugment-AA-cutout=False-2021-10-01-17-24-56-epoch-99.pt
+ &  95.16
+ &  91.86    %AUROC
+ &  93.52  
+ &  92.94  
+ &  97.02  
+ &  92.76  
+ &  89.61  
+ &  91.48  
+ &  85.70  
+ &  84.81   \\
+
+----------------FPR95---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+confidences--CIFAR10-Plain-TINY-augmentation=autoaugment-AA-cutout=False-2021-10-01-17-24-56-epoch-99.pt
+ &  95.16
+ &  52.90    %FPR95
+ &  47.87  
+ &  50.00  
+ &  17.18  
+ &  66.26  
+ &  60.43  
+ &  52.57  
+ &  76.00  
+ &  63.71   \\
+
+----------------AUPR---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR100  &  80M  &  CelebA  &  OpenImages  \\
+\midrule
+confidences--CIFAR10-Plain-TINY-augmentation=autoaugment-AA-cutout=False-2021-10-01-17-24-56-epoch-99.pt
+ &  95.16
+ &  91.86    %AUPR
+ &  93.52  
+ &  92.94  
+ &  97.02  
+ &  92.76  
+ &  89.61  
+ &  91.48  
+ &  85.70  
+ &  84.81   \\
+
+
+classi_ece:
+0.012041037164347656
+Bin details:
+0.25 to 0.30,conf-acc = 0.2506, p(bin) = 0.0001
+0.30 to 0.35,conf-acc = -0.0121, p(bin) = 0.0009
+0.35 to 0.40,conf-acc = -0.0439, p(bin) = 0.0012
+0.40 to 0.45,conf-acc = 0.1846, p(bin) = 0.0029
+0.45 to 0.50,conf-acc = 0.0718, p(bin) = 0.0044
+0.50 to 0.55,conf-acc = 0.1063, p(bin) = 0.0084
+0.55 to 0.60,conf-acc = 0.0644, p(bin) = 0.0106
+0.60 to 0.65,conf-acc = -0.0200, p(bin) = 0.0088
+0.65 to 0.70,conf-acc = 0.0006, p(bin) = 0.0104
+0.70 to 0.75,conf-acc = 0.0122, p(bin) = 0.0098
+0.75 to 0.80,conf-acc = 0.0667, p(bin) = 0.0130
+0.80 to 0.85,conf-acc = 0.0972, p(bin) = 0.0163
+0.85 to 0.90,conf-acc = 0.0526, p(bin) = 0.0187
+0.90 to 0.95,conf-acc = 0.0598, p(bin) = 0.0357
+0.95 to 1.00,conf-acc = 0.0043, p(bin) = 0.8588

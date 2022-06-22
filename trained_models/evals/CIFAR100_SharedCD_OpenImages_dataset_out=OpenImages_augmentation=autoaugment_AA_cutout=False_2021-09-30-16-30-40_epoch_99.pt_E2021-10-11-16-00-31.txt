@@ -1,0 +1,176 @@
+
+------trained_models/OpenImages_out/CIFAR100_SharedCD_OpenImages_dataset_out=OpenImages_augmentation=autoaugment_AA_cutout=False_2021-09-30-16-30-40_epoch_99.pt------CIFAR100_SharedCD_OpenImages_dataset_out=OpenImages_augmentation=autoaugment_AA_cutout=False_2021-09-30-16-30-40_epoch_99.pt------------
+
+----------------AUROC---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR10  &  80M  &  -  &  OpenImages  \\
+\midrule
+s1--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  84.46    %AUROC
+ &  97.44  
+ &  99.99  
+ &  99.70  
+ &  99.67  
+ &  47.82  
+ &  62.14  
+ &  \phantom{0000}?  
+ &  99.93   \\
+confidences_classifier--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  82.04    %AUROC
+ &  82.72  
+ &  99.05  
+ &  72.54  
+ &  84.55  
+ &  75.76  
+ &  77.65  
+ &  \phantom{0000}?  
+ &  93.54   \\
+s2--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  90.68    %AUROC
+ &  91.74  
+ &  99.99  
+ &  99.58  
+ &  99.53  
+ &  75.50  
+ &  77.73  
+ &  \phantom{0000}?  
+ &  99.57   \\
+s3--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  90.67    %AUROC
+ &  91.69  
+ &  99.99  
+ &  99.56  
+ &  99.52  
+ &  75.50  
+ &  77.73  
+ &  \phantom{0000}?  
+ &  99.57   \\
+
+----------------FPR95---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR10  &  80M  &  -  &  OpenImages  \\
+\midrule
+s1--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  32.01    %FPR95
+ &  10.77  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.00  
+ &  95.25  
+ &  86.05  
+ &  \phantom{0000}?  
+ &  \phantom{0}0.08   \\
+confidences_classifier--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  67.17    %FPR95
+ &  71.05  
+ &  \phantom{0}5.00  
+ &  97.97  
+ &  68.57  
+ &  82.05  
+ &  78.39  
+ &  \phantom{0000}?  
+ &  28.38   \\
+s2--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  33.12    %FPR95
+ &  37.30  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.00  
+ &  \phantom{0}1.15  
+ &  82.71  
+ &  77.58  
+ &  \phantom{0000}?  
+ &  \phantom{0}1.80   \\
+s3--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  33.17    %FPR95
+ &  37.57  
+ &  \phantom{0}0.00  
+ &  \phantom{0}0.00  
+ &  \phantom{0}1.19  
+ &  82.68  
+ &  77.57  
+ &  \phantom{0000}?  
+ &  \phantom{0}1.85   \\
+
+----------------AUPR---------------
+Model & Acc. & Mean  &  SVHN  &  LSUN_CR  &  Uniform  &  Smooth  &  CIFAR10  &  80M  &  -  &  OpenImages  \\
+\midrule
+s1--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  84.46    %AUPR
+ &  97.44  
+ &  99.99  
+ &  99.70  
+ &  99.67  
+ &  47.82  
+ &  62.14  
+ &  \phantom{0000}?  
+ &  99.93   \\
+confidences_classifier--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  82.04    %AUPR
+ &  82.72  
+ &  99.05  
+ &  72.54  
+ &  84.55  
+ &  75.76  
+ &  77.65  
+ &  \phantom{0000}?  
+ &  93.54   \\
+s2--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  90.68    %AUPR
+ &  91.74  
+ &  99.99  
+ &  99.58  
+ &  99.53  
+ &  75.50  
+ &  77.73  
+ &  \phantom{0000}?  
+ &  99.57   \\
+s3--CIFAR100-SharedCD-OpenImages-dataset-out=OpenImages-augmentation=autoaugment-AA-cutout=False-2021-09-30-16-30-40-epoch-99.pt
+ &  77.35
+ &  90.67    %AUPR
+ &  91.69  
+ &  99.99  
+ &  99.56  
+ &  99.52  
+ &  75.50  
+ &  77.73  
+ &  \phantom{0000}?  
+ &  99.57   \\
+
+
+classi_ece:
+0.06327725777587649
+Bin details:
+0.05 to 0.10,conf-acc = 0.0896, p(bin) = 0.0002
+0.10 to 0.15,conf-acc = -0.0950, p(bin) = 0.0013
+0.15 to 0.20,conf-acc = 0.0069, p(bin) = 0.0035
+0.20 to 0.25,conf-acc = 0.0427, p(bin) = 0.0065
+0.25 to 0.30,conf-acc = 0.0416, p(bin) = 0.0128
+0.30 to 0.35,conf-acc = 0.0097, p(bin) = 0.0189
+0.35 to 0.40,conf-acc = 0.0474, p(bin) = 0.0211
+0.40 to 0.45,conf-acc = 0.0887, p(bin) = 0.0250
+0.45 to 0.50,conf-acc = 0.0832, p(bin) = 0.0289
+0.50 to 0.55,conf-acc = 0.0893, p(bin) = 0.0315
+0.55 to 0.60,conf-acc = 0.0893, p(bin) = 0.0317
+0.60 to 0.65,conf-acc = 0.1112, p(bin) = 0.0306
+0.65 to 0.70,conf-acc = 0.1274, p(bin) = 0.0318
+0.70 to 0.75,conf-acc = 0.2023, p(bin) = 0.0334
+0.75 to 0.80,conf-acc = 0.1386, p(bin) = 0.0369
+0.80 to 0.85,conf-acc = 0.1412, p(bin) = 0.0361
+0.85 to 0.90,conf-acc = 0.1224, p(bin) = 0.0510
+0.90 to 0.95,conf-acc = 0.0959, p(bin) = 0.0726
+0.95 to 1.00,conf-acc = 0.0251, p(bin) = 0.5262
+
+
+classi_CE:
+0.8141261685794798
+Bin details:
+No bins.
