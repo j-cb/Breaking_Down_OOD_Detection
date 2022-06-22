@@ -9,7 +9,7 @@ Code for the ICML 2022 paper
 
 ## Paper Summary
 
-![gitlab_rendered_summary.png](readme_imgs/gitlab_rendered_summary.png)
+![gitlab_rendered_summary_readme.png](readme_imgs/gitlab_rendered_summary_readme.png)
 ![Breaking_Down_OOD_Detection_ICML_Table1.png](readme_imgs/Breaking_Down_OOD_Detection_ICML_Table1.png)
 
 ## Training
